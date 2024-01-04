@@ -7,10 +7,19 @@ const Footer = () => {
         <SocialMediaIcons />
         <div className="md:flex justify-center md:justify-between text-center ">
           <p className="font-playfair font-semibold text-2xl text-yellow">
-            JANE ESPER
+            Bruno Silva
           </p>
-          <p className="font-playfair text-md text-yellow">
-            ©2022 ESPER. All Rights Reserved.
+          <p className="m-1 font-playfair text-md text-yellow">
+            ©2023 By.
+            <a className="m-1" href="https://github.com/rianymello">Riany</a>
+            
+            <a className="m-1" href="https://github.com/Cocakk">Pedro</a>
+            
+            <a className="m-1" href="https://github.com/Ecztassy">Diogo</a>
+            
+            <a href=""> Bruno </a>
+
+
           </p>
         </div>
       </div>

@@ -11,11 +11,11 @@ const Footer = () => {
           </p>
           <p className="m-1 font-playfair text-md text-yellow">
             ©2023 By.
-            <a className="m-1" href="https://github.com/rianymello">Riany</a>
+            <a className="m-1" target="_blank" href="https://github.com/rianymello">Riany</a>
             
-            <a className="m-1" href="https://github.com/Cocakk">Pedro</a>
+            <a className="m-1" target="_blank" href="https://github.com/Cocakk">Pedro</a>
             
-            <a className="m-1" href="https://github.com/Ecztassy">Diogo</a>
+            <a className="m-1" target="_blank" href="https://github.com/Ecztassy">Diogo</a>
             
             <a href=""> Bruno </a>
 

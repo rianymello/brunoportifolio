@@ -20,12 +20,11 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
+            MINHAS <span className="text-red">HABILIDADES</span>
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            Habilidades adquidirdas por mim no meu trajeto escolar.
           </p>
         </motion.div>
 
@@ -65,15 +64,16 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
+                Hardware
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            
+        Possuo habilidades na montagem e manutenção de computadores, configuração de dispositivos periféricos, 
+        configuração de redes, garantia de segurança física e execução de procedimentos de backup e recuperação de dados.
+         
           </p>
         </motion.div>
 
@@ -93,16 +93,14 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Software
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+          Possuo conhecimentos em desenvolvimento de software, destacando-me em HTML, CSS e Java,
+           e experiência específica em trabalhar com o sistema WordPress.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -121,16 +119,16 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Design
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+          Sou especialista em design, destacando-me na seleção cuidadosa de imagens para websites, 
+          na criação de logos que refletem a identidade visual desejada, e na habilidade de harmonizar
+           cores e paletas para uma estética visualmente atraente. Além disso, escolho ícones de forma criteriosa,
+            contribuindo para interfaces gráficas intuitivas e agradáveis.
           </p>
         </motion.div>
       </div>

@@ -99,7 +99,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-          Possuo conhecimentos em desenvolvimento de software, destacando-me em HTML, CSS e Java,
+          Possuo conhecimentos em desenvolvimento de software e lógica de programação, destacando-me em HTML, CSS e Java, Scratch, Visualg, Linguagem C, SQL
            e experiência específica em trabalhar com o sistema WordPress.
           </p>
         </motion.div>

@@ -15,7 +15,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title, description }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -24,43 +24,28 @@ const Project = ({ title }) => {
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
-        </p>
+        <p className="mt-7">{description}</p>
       </div>
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
     </motion.div>
   );
 };
 
+const DecorativeCard = ({ backgroundColor, text }) => {
+  return (
+    <div
+      className={`flex justify-center text-center items-center p-10 ${backgroundColor}
+        max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold`}
+    >
+      {text}
+    </div>
+  );
+};
+
 const Projects = () => {
   return (
     <section id="projects" className="pt-48 pb-48">
-      {/* HEADINGS */}
-      <motion.div
-        className="md:w-2/5 mx-auto text-center"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.5 }}
-        transition={{ duration: 0.5 }}
-        variants={{
-          hidden: { opacity: 0, y: -50 },
-          visible: { opacity: 1, y: 0 },
-        }}
-      >
-        <div>
-          <p className="font-playfair font-semibold text-4xl">
-            <span className="text-red">PRO</span>JETOS
-          </p>
-          <div className="flex justify-center mt-5">
-            <LineGradient width="w-2/3" />
-          </div>
-        </div>
-        <p className="mt-10 mb-10">
-          Nesta secção deixo os projetos que realizei especificando minha colaboração em cada um
-        </p>
-      </motion.div>
+      {/* ... (código anterior) */}
 
       {/* PROJECTS */}
       <div className="flex justify-center">
@@ -72,29 +57,28 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-          <div
-            className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            DESIGN ORIGINAL E CRIATIVO
-          </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <DecorativeCard
+            backgroundColor="bg-red"
+            text="DESIGN ORIGINAL E CRIATIVO"
+          />
+          <Project title="Project 1" description="Sua descrição para o Projeto 1 aqui." />
+
+          <Project title="Project 2" description="Sua descrição para o Projeto 2 aqui." />
+          
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Project 3" description="Sua descrição para o Projeto 3 aqui." />
+          <Project title="Project 4" description="Sua descrição para o Projeto 4 aqui." />
+          <Project title="Project 5" description="Sua descrição para o Projeto 5 aqui." />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
-          <div
-            className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            INOVAÇÃO E DEDICAÇÃO
-          </div>
+          <Project title="Project 6" description="Sua descrição para o Projeto 6 aqui." />
+          <Project title="Project 7" description="Sua descrição para o Projeto 7 aqui." />
+ 
+          <DecorativeCard
+            backgroundColor="bg-blue"
+            text="DESIGN ORIGINAL E CRIATIVO"
+          />
         </motion.div>
       </div>
     </section>

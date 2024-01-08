@@ -20,11 +20,11 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MINHAS <span className="text-red">HABILIDADES</span>
+            MINHAS <span className="text-red">CAPACIDADES</span>
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Habilidades adquidirdas por mim no meu trajeto escolar.
+            Capacidades adquidirdas por mim no meu trajeto escolar.
           </p>
         </motion.div>
 
